@@ -13,6 +13,6 @@ public class CompteTaux extends Compte {
     }
     public String toString(){
         String resultat = super.toString();
-        return resultat;
+        return resultat +tauxRemuneration ;
     }
 }
