@@ -9,4 +9,8 @@ public class Credit extends Operation{
     public String getType() {
         return "Crédit";
     }
+    @Override
+    public String toString() {
+        return "Type: " + getType() + ", Account Number: " + dateOperation + ", Balance: " + montantOperation;
+    }
 }

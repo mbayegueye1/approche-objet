@@ -9,10 +9,8 @@ public class TestBanque {
        tableau[0]=compteNormal;
        tableau[1]=compteTaux;
 
-
-
-        System.out.println("le compte Normal"+tableau[0]);
-        System.out.println("le taux"+ tableau[1]);
+       System.out.println("le compte Normal"+tableau[0]);
+       System.out.println("le taux"+ tableau[1]);
 
     }
 }
